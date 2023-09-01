@@ -7,10 +7,12 @@ import Form from "./component/pageThree/Form";
 import Error from "./component/pageThree/Error";
 
 import "./App.css";
+import ScrollToTopOnRouteChange from "./ScrollToTopOnRouteChange";
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTopOnRouteChange />
       <Routes>
         <Route path="/select" element={<SelectWallet />} />
         <Route path="/form" element={<Form />} />
